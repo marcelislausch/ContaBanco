@@ -25,7 +25,7 @@ public class ContaBanco {
         conta.setNumero(Integer.valueOf(scanner.nextLine()));
         System.out.println("Por favor, digite o seu nome:");
         conta.setNome_cliente(scanner.nextLine());
-        conta.setSaldo(237.48);
+        conta.setSaldo(237.48);//conforme exemplo
         
         System.out.println("Olá " + conta.getNome_cliente() + ", obrigado por criar uma conta em nosso banco, sua agência é " + conta.getAgencia() + ", conta " + conta.getNumero() + " e seu saldo " + conta.getSaldo() + " já está disponível para saque");
     }
